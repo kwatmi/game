@@ -451,10 +451,9 @@ function addComponents(itemClass, player) {
 function random(num) {
     return Math.floor(Math.random() * num);
 }
-/*______________________________________________________________________________________________________________
 
-    *INFORMATION ON THE PLAYER BOARDS*
-________________________________________________________________________________________________________________*/
+
+/*INFORMATION ON THE PLAYER BOARDS*/
 
 //set attributes to the acctive player to use them by replacing weapon
 function setActivePlayer(Active, notActive, activePowerDiv) {
@@ -657,9 +656,3 @@ function closeQuiz(){
 }
 
 
-/*
-NEXT CHALLENGES:
-1. Turn-based game created using canvas method.
-2. Instead of click event using key controlles.
-3. Add more questions to the quiz using AJAX.
-*/
